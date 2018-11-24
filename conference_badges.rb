@@ -15,6 +15,6 @@ def assign_rooms(list_of_names)
 end
 
 def printer(list_of_names)
-batch_badge_creator(list_of_names)
-assign_rooms(list_of_names)
+puts batch_badge_creator(list_of_names)
+puts assign_rooms(list_of_names)
 end
