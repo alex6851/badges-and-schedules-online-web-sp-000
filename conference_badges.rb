@@ -10,6 +10,6 @@ end
 
 def assign_rooms(list_of_names)
   assignments = []
-    list_of_names.each_with_index {|name, room| assignments << "Hello, #{name}! You'll be assigned to room #{room}!" }
+    list_of_names.each_with_index {|name, room| assignments << "Hello, #{name}! You'll be assigned to room #{room + 1}!" }
   assignments
 end
